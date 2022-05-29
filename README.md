@@ -4,7 +4,7 @@ A tool that allows for removal of all Preinstalled Apps on Windows that can't be
 ## How to use
 Download the executable of the ![latest releases](https://github.com/J-onasJones/WindowsBloatwareRemover/releases/latest) and run it as administrator.
 To do that locate your download folder, right-click the file and click "Run as Administrator"
-Windows probably won't run it at first but display a prompt that it "protected" your pc by blocking it. Click on "More Info" and then on "Run Anyway".
+Windows probably won't run it at first but display a prompt, claiming it had "protected" your pc by blocking the program. Click on "More Info" and then on "Run Anyway".
 <img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red1.png" height="250"/>
 <img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red2.png" height="250"/>
 
