@@ -9,7 +9,9 @@ Windows probably won't run it at first but display a prompt, claiming it had "pr
 <img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red2.png" height="250"/>
 
 Now follow the instructions in the terminal.
-**As of version 1.0.0 a proper UI replaces the terminal.**
+**As of version 1.0.0 a proper UI replaces the terminal.** 
+
+*NOTE: Said Version hasn't been released yet.*
 
 ### Screenshots
 ![Terminal Screenshot <v1.0.0](https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/TerminalScreenshot.png)
