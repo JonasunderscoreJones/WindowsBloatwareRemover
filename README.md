@@ -1,6 +1,8 @@
 # WindowsBloatwareRemover
 A tool that allows for removal of all Preinstalled Apps on Windows that can't be removed by Windows, such as Microsoft Edge
 
+**This tool has been properly tested on Windows 10 and 11** (I used the bug a while ago that let me install Windows 11 on my laptop)
+
 ## How to use
 Download the executable of the ![latest releases](https://github.com/J-onasJones/WindowsBloatwareRemover/releases/latest) and run it as administrator.
 To do that locate your download folder, right-click the file and click "Run as Administrator"
@@ -29,9 +31,6 @@ The second step is surprisingly the easy part and can be done with only two comm
 - Programmatically running the executable seams to be impossible. When using the default command line to run the command that runs the executable (or running the program in the powershell from the exact location of the uninstall-executable for edge to avoid the x86 issue) windows seams to not run it correctly but when I, as a user, paste the command and run it manually,  it always worked. Either Windows has a built-in function that prevents you from programmatically remove Edge, or I am just a moron.
 
 But just in case, I am working on a solution, and I will (probably) find one. Since I don't use Windows anymore but have switched over Linux a while ago, this is of course not my highest priority so there might not be any updates and bug-fixing in the near future (I also have no time rn).
-
-### Not tested on Windows 11 (this is probably not considered a bug or issue since I don't know how it performs on Windows 11)
-I haven't tested the project on a Windows 11 machine (or virtual machine) and therefore cannot claim that it works without flaws. Why this is, You may be asking? Well... ask Microsoft! The system requirements for WWindows 11 are so crazy that basically every CPU manufactured in 2018 or earlier is not "good enough" to be running Windows 11. Since I am running a core i5 6th gen (from 2015) and can't be bothered going through the hassle of somehow tricking windows into thinking my CPU was good enough on a virtual machine, I won't test it in the near future (maybe I will try to make it work on my laptop in a VM). If You have a Windows 11 compatible machine and are familiar with the concept of Virtual machines and how to use them, be sure to open an issue and tell me how it performs.
 
 ## Why
 Ever used Windows? - I don't think this needs more explanation, especially for 10 and 11.
