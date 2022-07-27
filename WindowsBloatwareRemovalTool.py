@@ -3,7 +3,9 @@ VERSION = "0.1.2"
 import os
 import ctypes
 from sys import exit as sysexit
-import glob
+import sys
+import acceptdestruction, adminprompt, done, mainwindow, process
+from PyQt5 import QtGui
 
 def isAdmin():
 	try:
@@ -28,37 +30,13 @@ appsXboxIDs = ["xboxapp", "Microsoft.XboxGamingOverlay"]
 appsUsual = ["3D Builder", "Alarms", "Communications", "Camera", "Cortana", "Get Office", "Skype", "Get Started", "Groove Music", "Maps", "News", "One Note", "People", "Solitaire Collection", "Finance", "Sports", "Voice Recorder", "Weather", "Xbox", "Get Help", "Your Phone", "Cortana", "Edge"]
 appsUsualIDs = ["3d", "windowsalarms", "windowscommunicationsapps", "windowscamera", "officehub", "skypeapp", "getstarted", "zunemusic", "windowsmaps", "bingnews", "onenote", "people", "solitairecollection", "bingfinance", "bingsports", "soundrecorder", "bingweather", "xboxapp", "Microsoft.GetHelp", "YourPhone", "Microsoft.549981C3F5F10", None]
 
-print("\n\nWelcome to the ultimate unremovable Windows apps Removal tool v" + VERSION + "!")
-print("--------------------------------------------------------------")
-print("\n")
 
-if not isAdmin():
-	print("NOT RUNNING AS ADMINISTRATOR. Therefore " + requireAdminDisplay + " cannot be persued. Please run your Powershell as Administrator for these!")
+# if not isAdmin():
+# 	adminprompt.show()
 
-print("\n")
+mainwindow.show()
 
-print("This tool can do the following:")
 
-print("\t1) Remove all preinsalled unremovable Windows Apps")
-print("\t2) Remove all Bing related Apps")
-print("\t3) Remove all XboX related Apps")
-print("\t4) Remove all Apps that are usually removed")
-print("\t5) Remove the Microsoft Edge Browser")
-print("\t6) Remove a custom Selection of Apps")
-
-print("\n")
-
-print("List of Apps that will be removed by selecting the above Options:")
-print("\t1) " + str(apps).replace("[", "").replace("]", "").replace("'", ""))
-print("\t2) " + str(appsBing).replace("[", "").replace("]", "").replace("'", ""))
-print("\t3) " + str(appsXbox).replace("[", "").replace("]", "").replace("'", ""))
-print("\t4) " + str(appsUsual).replace("[", "").replace("]", "").replace("'", ""))
-print("\t5) Edge")
-print("\t6) [Custom]")
-
-print("\nq) quit")
-
-print("\n\n")
 
 mode = input("Select " + modeOptionsDisplay + ":")
 
