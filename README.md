@@ -1,17 +1,22 @@
 # WindowsBloatwareRemover
 A tool that allows for removal of all Preinstalled Apps on Windows that can't be removed by Windows, such as Microsoft Edge
 
-**This tool has been properly tested on Windows 10 and 11** (I used the bug a while ago that let me install Windows 11 on my laptop)
+**This tool has been properly tested on Windows 10 and 11**
+
+It is currently being rewritten in Rust at the [rust-dev branch](https://github.com/J-onasJones/WindowsBloatwareRemover/tree/rust-dev).
 
 ## How to use
 Download the executable of the ![latest releases](https://github.com/J-onasJones/WindowsBloatwareRemover/releases/latest) and run it as administrator.
 To do that locate your download folder, right-click the file and click "Run as Administrator"
 Windows probably won't run it at first but display a prompt, claiming it had "protected" your pc by blocking the program. Click on "More Info" and then on "Run Anyway".
-<img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red1.png" height="250"/>
-<img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red2.png" height="250"/>
+
+<a align="center">
+<img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red1.png" height="250px" width="250px"/><img src="https://github.com/J-onasJones/WindowsBloatwareRemover/blob/main/ReadMeSrc/red2.png" height="250px" width="250px"/>
+</a>
 
 Now follow the instructions in the terminal.
-**As of version 1.0.0 a proper UI replaces the terminal.** 
+
+**As of version 1.0.0 a proper UI replaces the terminal.** - This will no longer happen in the current version but is being worked on at the [rust-dev branch](https://github.com/J-onasJones/WindowsBloatwareRemover/tree/rust-dev)
 
 *NOTE: Said Version hasn't been released yet.*
 
@@ -37,7 +42,4 @@ Ever used Windows? - I don't think this needs more explanation, especially for 1
 
 For everyone else: Microsoft is a master when it comes to slapping bloatware and advertisement onto their operating system, the edge browser being the most prominent one.
 
-For real though, I occasionally use Windows virtual machines and despite having a backup that I can easily clone every time I do experiments, etc.., reinstalling a fresh copy of Windows 10 needs to be done from time to time.
-
-# Donations for new PC
-Click [here](http://jonasjones.me/uwu) (definitely not a Rick Roll) to donate me money so that I can buy a new PC to test this on Windows 11.
+I occasionally use Windows virtual machines and despite having a backup that I can easily clone every time I do experiments, etc.., reinstalling a fresh copy of Windows 10 needs to be done from time to time.
